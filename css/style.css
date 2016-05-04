@@ -1,0 +1,128 @@
+
+body {
+  color: gray;
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+}
+
+/* Parte Superior*/
+.main-header {
+  background-color: orange;
+  text-align: center;
+}
+
+/* Parte Superior.letra*/
+.main-header span{
+  color: white;
+  font-size: 26px;
+}
+
+.title {
+  color: white;
+  font-size: 22px;
+}
+
+/* Textos Principales*/
+h1 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 5.625rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.3;
+}
+h2 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em;
+}
+h3 {
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.25em;
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em;
+}
+
+/* Enlaces*/
+a:link {
+  color: rgb(255, 169, 73);
+  text-decoration: none;
+}
+/* Cuando pasa el mouse por encima de este cambia a un tono mas opaco*/
+a:hover {
+  color: rgba(255, 169, 73, .4);
+}
+/* Cuando se activa cambia a este color*/
+a:active {
+  color: lightcoral;
+}
+/* Cuando es clickeado este link cambia a este otro color*/
+a:visited {
+  color: lightblue;
+}
+
+.primary-content {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 70px;
+    width: 60%;
+    margin: auto;
+}
+
+.intro {
+  font-size: 26px;
+  line-height: 2;
+}
+
+/* Primer cuadro de Presentacion */
+.wildlife {
+  color: white;
+  background-color: dimgrey;
+  /* Para arreglar problemas con los margenes*/
+  padding: 16% 22%;
+  /* borde superior naranja*/
+  border-top: 12px solid orange;
+  margin: 105px 0 60px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid lightgray
+  width: 60%;
+  margin: auto;
+}
+
+/* Primer Foto*/
+.resorts {
+  padding: 1% 21%;
+  margin: auto;
+}
+
+/* Segunda Foto*/
+.tips {
+  padding: 1% 21%;
+  margin: auto;
+}
+
+.callout {
+  font-size: 1.25em;
+  border-bottom: 2px solid ligthgray;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.t-border {
+  border-top: 2px solid lightgray;
+}
+
+/* Seccion del Footer */
+.main-footer {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 10px solid orange;
+}
