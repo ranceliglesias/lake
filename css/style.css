@@ -7,7 +7,13 @@ body {
 
 /* Parte Superior*/
 .main-header {
+  padding-top: 300px;
+  background: linear-gradient(orange, transparent),
+              linear-gradient(transparent, white),
+              url('../img/mountains.jpg');
+  background-size: cover;
   background-color: orange;
+  height: 800px;
   text-align: center;
 }
 
@@ -44,6 +50,16 @@ h3 {
   color: #48525c;
   line-height: 1.2;
   margin-bottom: 1.7em;
+}
+p {
+  line-height: normal;
+}
+ol, ul{
+  margin: 30px 0;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* Enlaces*/
@@ -85,7 +101,10 @@ a:visited {
   padding: 16% 22%;
   /* borde superior naranja*/
   border-top: 12px solid orange;
+  border-radius: 10px;
   margin: 105px 0 60px;
+  background: url('../img/bear.jpg');
+  background-size: cover;
 }
 
 .secondary-content {
@@ -95,17 +114,15 @@ a:visited {
   width: 60%;
   margin: auto;
 }
-
-/* Primer Foto*/
-.resorts {
-  padding: 1% 21%;
-  margin: auto;
+.secondary-content::after {
+  display: table;
+  clear: both;
+  content: "";
 }
 
-/* Segunda Foto*/
-.tips {
-  padding: 1% 21%;
-  margin: auto;
+.secondary-content{
+  width: 60%;
+  margin:auto;
 }
 
 .callout {
@@ -125,4 +142,26 @@ a:visited {
   padding-top: 70px;
   padding-bottom: 70px;
   border-bottom: 10px solid orange;
+}
+
+.resorts, .tips{
+  width: 45%;
+}
+
+.resorts{
+  float: right;
+}
+
+.tips{
+  float: left;
+}
+
+.secondary-content img{
+  border-top: 10px solid orange;
+}
+
+.secondary-content:after{
+  content: "";
+  display: table;
+  clear:both;
 }
