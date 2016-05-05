@@ -12,7 +12,7 @@ body {
 
 h1,
 h2 {
-  font-family: 'Slabo 22px', serif;
+  font-family: 'Slabo 20px', serif;
 }
 
 h1 {
@@ -216,7 +216,7 @@ a:active {
     border: none;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 1.3rem;
     line-height: 1.1;
   }
   .arrow {
